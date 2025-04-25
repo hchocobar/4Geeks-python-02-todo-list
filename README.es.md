@@ -1,16 +1,14 @@
-# Todo list with Python
+# Lista de tareas pendientes
 
 <p align="center">
   <img height="200" src="https://github.com/breatheco-de/exercise-todo-list-cli-python/blob/master/preview.gif?raw=true" />
 </p>
 
-Create a TODO list application that allows users to add and delete tasks from the command line.
+Crea una aplicación de lista de tareas o de todos que le permita a los usuarios añadir y eliminar tareas desde la terminal.
 
+## 📝 Instrucciones
 
-
-## 📝 Instructions
-
-These are the functions you will have to implement:
+Estas son las funciones que tendrás que implementar:
 
 ```python
 def add_one_task(title):
@@ -18,12 +16,12 @@ def print_list():
 def delete_task(number_to_delete):
 def save_todos():
 def load_todos():
-```
+````
 
-- Your app must work from the command line [like this](https://4geeks.com/interactive-coding-tutorial/beginner/todo-list-cli-python).
-- The user should be able to add new tasks
-- The user can add as many tasks as he want.
-- The user can delete tasks by specifying the task position in the list.
-- The user can save the todos to a `todos.csv` file
-- The user can retrieve the todos from a `todos.csv` file
-- There is no way to update a task; the user must delete and create it again.
+- Tu aplicación debe funcionar desde la terminal [como esta] (https://projects.breatheco.de/json?slug=todo-list-cli&preview).
+- El usuario puede agregar nuevas tareas
+- El usuario puede agregar tantas tareas como quiera.
+- El usuario puede eliminar tareas especificando la posición de la tarea en la lista.
+- El usuario puede guardar los todos en un archivo `todos.csv`
+- El usuario puede recuperar los todos de un archivo `todos.csv`
+- No hay forma de actualizar una tarea, el usuario deberá borrar y crear nuevamente.
